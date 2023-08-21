@@ -108,7 +108,7 @@ li {
 
 .my-image {
   text-align: center;
-  margin-top: -90px;
+  margin-top: -84px;
 }
 
 .my-image img {
@@ -226,7 +226,21 @@ p svg path {
 .container img {
   transition: all 0.4s ease-in-out;
 }
+.video-container {
+  position: justify;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (height / width) */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
 
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 .container > div {
   display: flex;
   flex-direction: column;
