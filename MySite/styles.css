@@ -256,15 +256,19 @@ p svg path {
   height: 167.75px;
 }
 .footer {
-  position: absolute;
-  justify-content: center;
+  text-align: center;
   padding: 20px;
-  background-color: #fcfcfc;
-  margin-bottom: 30px;
+  background-color: #f0f0f0;
+  margin-top: 30px; /* Add margin to position the footer above the bottom */
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-link {
-  text-align: center;
   font-size: 24px;
   color: #333;
   margin: 0 10px;
