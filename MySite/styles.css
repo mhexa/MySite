@@ -256,7 +256,8 @@ p svg path {
   height: 167.75px;
 }
 .footer {
-  justify-content: space-around;
+  position: absolute;
+  justify-content: center;
   padding: 20px;
   background-color: #fcfcfc;
   margin-bottom: 30px;
