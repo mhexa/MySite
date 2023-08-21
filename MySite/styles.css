@@ -231,7 +231,8 @@ p svg path {
   padding-bottom: 56.25%; /* 16:9 aspect ratio (height / width) */
   height: 0;
   overflow: hidden;
-  max-width: 100%;
+  width: 80%;
+  border: 16px;
 }
 
 .video-container iframe {
