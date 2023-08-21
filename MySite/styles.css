@@ -256,14 +256,14 @@ p svg path {
   height: 167.75px;
 }
 .footer {
-  text-align: center;
   justify-content: center;
   padding: 20px;
-  background-color: #f0f0f0;
+  background-color: #fcfcfc;
   margin-bottom: 30px;
 }
 
 .social-link {
+  text-align: center;
   font-size: 24px;
   color: #333;
   margin: 0 10px;
