@@ -232,7 +232,6 @@ p svg path {
   height: 0;
   overflow: hidden;
   width: 80%;
-  border: 16px;
 }
 
 .video-container iframe {
