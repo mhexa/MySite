@@ -227,11 +227,11 @@ p svg path {
   transition: all 0.4s ease-in-out;
 }
 .video-container {
-  position: justify;
+  position: relative;
   padding-bottom: 56.25%; /* 16:9 aspect ratio (height / width) */
   height: 0;
   overflow: hidden;
-  width: 80%;
+  max-width: 100%;
 }
 
 .video-container iframe {
