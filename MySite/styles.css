@@ -167,6 +167,11 @@ li {
   margin-bottom: 5px;
 }
 
+.interest-item p {
+  text-align: center; /* Align paragraphs to center */
+  margin: 0; /* Remove default margin to prevent extra space */
+}
+
 .interest-item img {
   width: 50px; /* Adjust icon size as needed */
 }
