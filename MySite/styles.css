@@ -136,6 +136,23 @@ li {
   margin: 0;
 }
 
+#about-me {
+  /* Your styling for the "About me" section */
+}
+
+.about-me-section {
+  display: flex;
+  overflow-x: auto;
+}
+
+.scrollable-section {
+  flex: 0 0 auto;
+  width: 100%; /* Adjust as needed */
+  padding: 20px; /* Adjust as needed */
+}
+
+/* Additional styling for individual scrollable sections can be added as needed */
+
 .skills img,
 .skills svg {
   width: 50px;
