@@ -9,7 +9,9 @@
     <link rel="icon" href="https://duncan-maina-cv.netlify.app/images/igp-favicon.png">
     <link href="./MySite/helvetica-neue-5" rel="stylesheet">
     <link rel="stylesheet" href="./MySite/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="./MySite/responsive.js.download" defer=""></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
     <title>Duncan</title>
   <style type="text/css">
 @font-face {
@@ -84,6 +86,7 @@
               <div class="interest-item">
                 <h4>Data Analytics</h4>
                 <img src="data_analytics_icon.png" alt="Data Analytics Icon">
+                <p>I enjoy the process of turning raw data into meaningful, actionable insights and finding patterns in a dataset which can tell something useful and relevant about a particular area of the business </p>
               </div>
               <div class="interest-item">
                 <h4>Visualizations</h4>
@@ -94,6 +97,7 @@
                 <img src="model_building_icon.png" alt="Model Building Icon">
               </div>
             </div>
+            
           </div>
         </div>
         <div class="nav-buttons">
@@ -125,30 +129,44 @@
       <section id="bio">
         <h4>Bio</h4>
         <p>
-          George Ikigu is the founder of Occiris, a speech-to-text startup based
-          in Nairobi, Kenya. He is passionate about helping YouTubers reach a
-          wide and diverse audience through closed captions. He’s especially
-          interested in making online content accessible to hard-of-hearing
-          audiences.
+          Duncan Maina is an adept data scientist specializing in statistical analysis and machine learning. His strengths include statistical analysis by simplifying inricate data ideas and bridging the gap between technical complexity and practical use. He is a problem solver and has expirience working with different datasets.
         </p>
 
         <p>
-          He's a self-taught web developer and works as the primary developer at
-          Occiris. He plays a major role in designing and developing software
+          He's a self-taught web developer and works as a primary developer for various freelancing sites. He plays a major role in designing and developing software
           solutions that meet the company's needs. Currently, he's pursuing the
-          ALX Software Engineering program.
+          ALX Data Science program.
         </p>
       </section>
       <section id="pitch">
         <h4>Pitch</h4>
-        <h1>Coming Soon!</h1>
+        <div class="video-container">
+          <div id="player"></div>
+          <p class="small">My Pitch Video</p>
+        </div>
+        <script>
+          var player;
+        
+          function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+              videoId: 'AfY0sRd1PhM', // Replace with your actual video ID
+              playerVars: {
+                autoplay: 1, // Autoplay the video
+                controls: 1, // Show video controls
+                modestbranding: 1, // Hide YouTube logo
+                showinfo: 0, // Hide video title and other info
+                rel: 0 // Don't show related videos after playback
+              }
+            });
+          }
+        </script>
       </section>
       <section id="portfolio">
         <h4>Portfolio</h4>
         <div class="container">
           <div>
-            <a href="/d/16F1fVYqE7s4wt6ZSmGcsxePCHtB7qQat/edit?usp=sharing&ouid=108542161413089196377&rtpof=true&sd=true">
-              <img src="./MySite/Screenshot(124).png" alt="slide-deck">
+            <a href="https://docs.google.com/presentation/d/16F1fVYqE7s4wt6ZSmGcsxePCHtB7qQat/edit?usp=sharing&ouid=108542161413089196377&rtpof=true&sd=true">
+              <img src="./MySite/Screenshot03.png" alt="slide-deck">
             </a>
             <p class="small">Slide Decks</p>
           </div>
@@ -160,6 +178,20 @@
           </div>
         </div>
       </section>
+      <div class="social-container">
+        <a class="social-link" href="https://www.youtube.com/channel/UCRPoTACrSgcOL2gDHSflWwQ" target="_blank">
+          <i class="fab fa-youtube"></i>
+        </a>
+        <a class="social-link" href="https://twitter.com/Guns_8_Roses" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a class="social-link" href="https://www.linkedin.com/in/duncan-maina-751288102/" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a class="social-link" href="https://www.instagram.com/hexa_beatz" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
     </main>
     <footer>©Duncan Maina, 2023</footer>
   
