@@ -153,6 +153,24 @@ li {
 
 /* Additional styling for individual scrollable sections can be added as needed */
 
+.interests-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four columns */
+  gap: 20px; /* Gap between items */
+}
+
+.interest-item {
+  text-align: center;
+}
+
+.interest-item h4 {
+  margin-bottom: 5px;
+}
+
+.interest-item img {
+  width: 50px; /* Adjust icon size as needed */
+}
+
 .skills img,
 .skills svg {
   width: 50px;
