@@ -229,6 +229,11 @@ p svg path {
   margin-bottom: 96px;
 }
 
+#bio-section {
+  border-radius: 15px; /* Add rounded corners */
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+
 #bio h4 {
   margin-top: 16px;
 }
