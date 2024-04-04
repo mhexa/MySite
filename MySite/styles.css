@@ -153,19 +153,10 @@ li {
 
 /* Additional styling for individual scrollable sections can be added as needed */
 
-#interests-section {
-  background-color: #b3c1ff; /* Same background color as #bio */
-  border-radius: 15px; /* Rounded corners */
-  overflow-x: auto; /* Enable horizontal scrolling */
-  margin: 0; /* Reset margin */
-  padding: 0; /* Reset padding */
-
 .interests-grid {
   display: grid;
-  justify-content: space-between;
   grid-template-columns: repeat(4, 1fr); /* Four columns */
   gap: 20px; /* Gap between items */
-  padding: 20px;
 }
 
 .interest-item {
@@ -173,12 +164,11 @@ li {
 }
 
 .interest-item h4 {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .interest-item p {
   text-align: center; /* Align paragraphs to center */
-  margin-top: 10px;
   margin: 0; /* Remove default margin to prevent extra space */
 }
 
